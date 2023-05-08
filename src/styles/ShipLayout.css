@@ -1,0 +1,30 @@
+.ship {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Maintain aspect ratio 16:9 for the image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sensor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+.infrared {
+  background-color: red;
+}
+
+.co2 {
+  background-color: green;
+}
+
+

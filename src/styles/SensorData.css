@@ -1,0 +1,17 @@
+.sensor-data table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .sensor-data th,
+  .sensor-data td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .sensor-data th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  

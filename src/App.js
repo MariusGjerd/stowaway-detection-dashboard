@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ShipLayout from './components/ShipLayout';
+import SensorData from './components/SensorData';
+import AlertNotifications from './components/AlertNotifications';
+import HistoricalData from './components/HistoricalData';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Stowaway Detection Dashboard</h1>
       </header>
+      <main>
+        <ShipLayout />
+        <div>
+        <SensorData />
+        <AlertNotifications />
+        <HistoricalData />
+        </div>
+      </main>
     </div>
   );
 }
